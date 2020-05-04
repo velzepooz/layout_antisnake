@@ -1,4 +1,27 @@
-body {
-  margin: 0; }
+.snake {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto)); }
+  @media (min-width: 1200px) {
+    .snake {
+      grid-template-columns: repeat(3, minmax(300px, auto)); } }
+  .snake__box {
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 300px; }
+    .snake__box-col-1 {
+      background-color: red; }
+    .snake__box-col-2 {
+      background-color: #cc0000; }
+    .snake__box-col-3 {
+      background-color: #990000; }
+    .snake__box-col-4 {
+      background-color: #660000; }
+    .snake__box-col-5 {
+      background-color: #330000; }
+    .snake__box-col-6 {
+      background-color: black; }
 
 /*# sourceMappingURL=main.css.map */
